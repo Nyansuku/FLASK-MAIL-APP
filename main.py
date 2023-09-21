@@ -20,6 +20,7 @@ EMAIL_PASSWORD = 'zxcvbnm@123'  # Your email password or application-specific pa
 
 # Define a function to send OTP emails
 def send_otp_email(email, otp):
+    #this is a new comment line
     # Create an email message with the OTP
     msg = MIMEText(f'Your OTP is: {otp}')
     msg['Subject'] = 'OTP Verification'  # Set the email subject
